@@ -1,0 +1,36 @@
+.comment {
+    min-height: 975px;
+    &__blocks {
+        display: flex;
+        flex-direction: column;
+    }
+    &__block {
+        display: flex;
+        margin-top: 80px;
+        img {
+            transform: translateY(10%);
+            margin-right: 60px;
+            width: 169px;
+            height: 169px;
+        }
+        &_descr {
+            max-width: 650px;
+            .name_user {
+                color: #0d0d0d;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .skill {
+                margin-top: 10px;
+                color: #646464;
+                font-size: 14px;
+                font-weight: 300;
+            }
+            .comment_user {
+                color: #0d0d0d;
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+}
